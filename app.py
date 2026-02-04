@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 
 app = Flask(__name__)
 
-# Reference data
+# Reference dataa
 data = {
     10: "Very Cold ",
     15: "Cold ",

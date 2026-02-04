@@ -55,18 +55,3 @@ button:hover {
     margin-top: 20px;
     font-weight: bold;
 }
-
-input[type="number"] {
-    font-size: 32px;      /* makes typed text big */
-    padding: 15px;
-    width: 320px;
-    border-radius: 10px;
-    border: 2px solid #4facfe;
-    text-align: center;
-}
-
-/* Placeholder text size */
-input::placeholder {
-    font-size: 28px;      /* makes placeholder text big */
-    color: #555;
-}
