@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Feel Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>WeatherPulse</h1>
+    </header>
+
+    <section id="quotes">
+        <p>"Wherever you go, no matter the weather, always bring your own sunshine." </p>
+        <p>"A change in the weather is sufficient to recreate the world and ourselves." </p>
+    </section>
+
+    <section id="data-table">
+        <h2>Reference Temperature → Feeling</h2>
+        <table>
+            <tr><th>Temperature (°C)</th><th>Feeling</th></tr>
+            <tr><td>10</td><td>Very Cold </td></tr>
+            <tr><td>15</td><td>Cold </td></tr>
+            <tr><td>20</td><td>Pleasant </td></tr>
+            <tr><td>25</td><td>Comfortable </td></tr>
+            <tr><td>30</td><td>Warm </td></tr>
+            <tr><td>35</td><td>Hot </td></tr>
+            <tr><td>40</td><td>Very Hot </td></tr>
+        </table>
+    </section>
+
+    <section id="predictor">
+        <h2>Check How Today Feels</h2>
+        <input type="number" id="temperature" placeholder="Enter temperature in °C">
+        <button onclick="predictFeeling()">Predict Feeling</button>
+        <p id="output"></p>
+    </section>
+
+    <footer>
+        <p>🌏🥵🥶😇😩🌞🌝🌚⚡🌦️🌨️🌏</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #a1c4fd, #c2e9fb);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4facfe;
+    color: white;
+    padding: 20px 0;
+}
+
+section {
+    margin: 40px 40px;
+    padding: 20px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 15px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+table, th, td {
+    border: 1px solid #4facfe;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+th {
+    background-color: #4facfe;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4facfe;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 32px;
+}
+
+button:hover {
+    background-color: #00c6ff;
+}
+
+#output {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    font-size: 32px;      /* makes typed text big */
+    padding: 15px;
+    width: 320px;
+    border-radius: 10px;
+    border: 2px solid #4facfe;
+    text-align: center;
+}
+
+/* Placeholder text size */
+input::placeholder {
+    font-size: 28px;      /* makes placeholder text big */
+    color: #555;
+}
